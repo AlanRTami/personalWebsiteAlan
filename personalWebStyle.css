@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    position: fixed;
+    top: 8px;
+    left: 16px;
+}
+
+.container 
+{
+  
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  
+}
+
+
+.top-right
+{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+}
+
+.section2 {
+    background-image: url(images/grey.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    margin-top: -8px;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.lefttcolumn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.rightcolumn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    
+}
+
+#title2 {
+    margin: 100px 0 0 14vw;
+    font-size: 40px;
+}
+
+.aboutme {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 2vw 0 0 9vw;
+    /* z-index: 1; */
+    white-space: pre-line;
+}
+
+#aboutmepic {
+    height: 320px;
+    margin: 0 25px 0 0;
+}
+
+#aboutmetext {
+    text-align: justify;
+    line-height: 1.5;
+    width: 45%;
+}
+
+.laptopimg {
+    height: 44%;
+}
+
+.section3 {
+    background-image: url(images/blackorange.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 250vh;
+}
+
+.conceptart {
+    display: flex;
+    flex-direction: column;
+}
+
+#conceptsketch {
+    margin-top: 18%;
+}
+
+.conceptimg {
+    height: 40vh;
+    margin: 10vh 0 1vh 20vh;
+
+}
+
+.hangman {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100vh;
+    margin-left: 25vh;
+
+}
+
+#hangmantxt {
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    font: 800;
+    line-height: 1.9;
+    white-space: pre-line;
+    display: flex;
+    justify-content: center;    
+}
+
+#conceptimg5 {
+    height: 110vh;
+    margin: 10vh 0 0 0;
+}
+
+.bottom {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#burritobot {
+    height: 50vw;
+    margin: 0 0 0 1vw;
+}
+
+.contactme {
+    font-family: sans-serif;
+    color: white;
+    margin: 15% 0 10% 40%;
+
+}
+
+
+
+
+
